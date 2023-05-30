@@ -1,0 +1,242 @@
+2022-09-06 15:03:19,957 INFO {POS} {IP-DISABLED} valid: 192.168.137.1:8001@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1662447784913
+
+2022-09-06 15:03:26,439 INFO {POS} {IP-DISABLED} valid: 192.168.137.1:8222@DEFAULT@DEFAULT_GROUP@@service-gateway, region: unknown, msg: client timeout after 15000, last beat: 1662447788204
+
+2022-09-06 15:03:34,993 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.137.1:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-06 15:03:34,994 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2022-09-06 15:03:41,457 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.137.1:8222:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-06 15:03:41,457 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2022-09-06 15:20:53,184 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.22.0.3:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 15:20:53,184 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.22.0.3:8222_true,
+
+2022-09-06 15:27:51,920 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.22.0.3:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 15:27:51,920 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2022-09-06 15:35:14,604 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.137.1:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 15:35:14,604 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 192.168.137.1:8001_true,
+
+2022-09-06 15:35:48,013 INFO {POS} {IP-DISABLED} valid: 192.168.137.1:8001@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1662449731981
+
+2022-09-06 15:36:03,051 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.137.1:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-09-06 15:36:03,051 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2022-09-06 15:37:26,557 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.22.0.4:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 15:37:26,557 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.22.0.4:8222_true,
+
+2022-09-06 15:37:27,709 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.22.0.2:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 15:37:27,709 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.22.0.2:8001_true,
+
+2022-09-06 15:37:27,754 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.22.0.3:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 15:37:27,754 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 172.22.0.3:8004_true,
+
+2022-09-06 16:35:11,746 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.22.0.4:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:35:11,746 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2022-09-06 16:35:11,750 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.22.0.3:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:35:11,750 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2022-09-06 16:35:11,763 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.22.0.2:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:35:11,763 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2022-09-06 16:45:35,936 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.26.0.3:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:45:35,936 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.26.0.3:8222_true,
+
+2022-09-06 16:45:36,982 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.26.0.2:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:45:36,982 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 172.26.0.2:8004_true,
+
+2022-09-06 16:45:41,088 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.26.0.4:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:45:41,088 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.26.0.4:8001_true,
+
+2022-09-06 16:50:31,947 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.26.0.2:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:50:31,947 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2022-09-06 16:50:31,955 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.26.0.4:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:50:31,955 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2022-09-06 16:50:31,957 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.26.0.3:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:50:31,957 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2022-09-06 16:51:00,955 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.27.0.3:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:51:00,955 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.27.0.3:8222_true,
+
+2022-09-06 16:51:03,345 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.27.0.4:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:51:03,345 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.27.0.4:8001_true,
+
+2022-09-06 16:51:03,875 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.27.0.2:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 16:51:03,875 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 172.27.0.2:8004_true,
+
+2022-09-06 17:04:48,841 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.27.0.4:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:04:48,842 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2022-09-06 17:04:48,850 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.27.0.3:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:04:48,850 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2022-09-06 17:04:48,851 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.27.0.2:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:04:48,851 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2022-09-06 17:05:21,095 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.0.2:8160:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:05:21,095 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 172.28.0.2:8160_true,
+
+2022-09-06 17:05:21,320 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.0.3:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:05:21,320 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 172.28.0.3:8005_true,
+
+2022-09-06 17:05:22,241 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.0.5:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:05:22,241 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.28.0.5:8222_true,
+
+2022-09-06 17:05:24,888 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.0.6:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:05:24,888 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 172.28.0.6:8004_true,
+
+2022-09-06 17:05:25,152 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.28.0.4:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:05:25,152 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.28.0.4:8001_true,
+
+2022-09-06 17:17:14,337 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.0.5:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:14,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2022-09-06 17:17:14,337 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.0.4:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:14,337 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2022-09-06 17:17:14,338 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.0.6:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:14,338 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2022-09-06 17:17:14,341 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.0.3:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:14,341 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 
+
+2022-09-06 17:17:14,355 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.28.0.2:8160:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:14,355 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2022-09-06 17:17:39,855 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.29.0.2:8160:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:39,855 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 172.29.0.2:8160_true,
+
+2022-09-06 17:17:40,259 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.29.0.5:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:40,259 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.29.0.5:8222_true,
+
+2022-09-06 17:17:42,193 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.29.0.4:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:42,193 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 172.29.0.4:8004_true,
+
+2022-09-06 17:17:42,831 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.29.0.3:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:42,831 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.29.0.3:8001_true,
+
+2022-09-06 17:17:43,216 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.29.0.6:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:17:43,216 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 172.29.0.6:8005_true,
+
+2022-09-06 17:23:10,498 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.29.0.5:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:10,498 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2022-09-06 17:23:10,498 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.29.0.3:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:10,498 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2022-09-06 17:23:10,500 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.29.0.2:8160:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:10,500 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2022-09-06 17:23:10,504 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.29.0.6:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:10,504 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 
+
+2022-09-06 17:23:10,504 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.29.0.4:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:10,504 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2022-09-06 17:23:50,905 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.30.0.3:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:50,905 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 172.30.0.3:8005_true,
+
+2022-09-06 17:23:51,457 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.30.0.4:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:51,457 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.30.0.4:8222_true,
+
+2022-09-06 17:23:52,343 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.30.0.2:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:52,343 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.30.0.2:8001_true,
+
+2022-09-06 17:23:52,994 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.30.0.5:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:52,994 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 172.30.0.5:8004_true,
+
+2022-09-06 17:23:55,112 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.30.0.6:8160:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 17:23:55,112 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 172.30.0.6:8160_true,
+
+2022-09-06 19:39:36,862 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.30.0.5:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:39:36,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 
+
+2022-09-06 19:39:36,862 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.30.0.4:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:39:36,862 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2022-09-06 19:39:36,865 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.30.0.6:8160:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:39:36,865 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 
+
+2022-09-06 19:39:36,867 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.30.0.3:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:39:36,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 
+
+2022-09-06 19:39:36,873 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.30.0.2:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:39:36,873 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+
+2022-09-06 19:39:54,774 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.31.0.4:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:39:54,774 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.31.0.4:8222_true,
+
+2022-09-06 19:39:56,079 INFO DEFAULT_GROUP@@service-cms {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.31.0.3:8004:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:39:56,079 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-cms, ips: 172.31.0.3:8004_true,
+
+2022-09-06 19:39:57,378 INFO DEFAULT_GROUP@@service-msm {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.31.0.2:8005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:39:57,378 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-msm, ips: 172.31.0.2:8005_true,
+
+2022-09-06 19:40:00,263 INFO DEFAULT_GROUP@@service-ucenter {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.31.0.6:8160:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:40:00,263 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-ucenter, ips: 172.31.0.6:8160_true,
+
+2022-09-06 19:40:01,265 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.31.0.5:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-09-06 19:40:01,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.31.0.5:8001_true,
+

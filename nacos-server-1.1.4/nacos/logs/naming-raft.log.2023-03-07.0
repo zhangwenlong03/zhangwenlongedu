@@ -1,0 +1,34 @@
+2023-03-07 19:31:53,451 INFO initializing Raft sub-system
+
+2023-03-07 19:31:53,451 INFO raft notifier started
+
+2023-03-07 19:31:53,451 INFO finish loading all datums, size: 0 cost 0 ms.
+
+2023-03-07 19:31:53,453 INFO cache loaded, datum count: 0, current term: 0
+
+2023-03-07 19:31:53,453 INFO finish to load data from disk, cost: 2 ms.
+
+2023-03-07 19:31:53,455 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2023-03-07 19:31:53,401 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"172.16.30.103","key":"172.16.30.103:0","lastRefTime":0,"servePort":0,"site":"unknown","weight":1}]
+
+2023-03-07 19:31:53,459 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"172.16.30.103","key":"172.16.30.103:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2023-03-07 19:31:53,492 INFO add listener: com.alibaba.nacos.naming.domains.meta.
+
+2023-03-07 19:31:54,476 INFO add listener: com.alibaba.nacos.naming.domains.meta.00-00---000-NACOS_SWITCH_DOMAIN-000---00-00
+
+2023-03-07 19:31:55,913 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-gateway
+
+2023-03-07 19:31:57,575 INFO add listener: com.alibaba.nacos.naming.iplist.public##DEFAULT_GROUP@@service-edu
+
+2023-03-07 19:31:58,413 INFO server list is updated, new: 1 servers: [{"adWeight":0,"alive":false,"ip":"172.16.30.103","key":"172.16.30.103:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-03-07 19:31:58,413 INFO server list is updated, dead: 1, servers: [{"adWeight":0,"alive":false,"ip":"172.16.30.103","key":"172.16.30.103:0","lastRefTime":0,"lastRefTimeStr":"","servePort":0,"site":"unknown","weight":1}]
+
+2023-03-07 19:31:58,413 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"172.16.30.103","key":"172.16.30.103:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-03-07 19:32:01,427 INFO raft peers changed: [{"adWeight":0,"alive":false,"ip":"172.16.30.103","key":"172.16.30.103:8848","lastRefTime":0,"lastRefTimeStr":"","servePort":8848,"site":"unknown","weight":1}]
+
+2023-03-07 19:32:01,461 INFO leader timeout, start voting,leader: {"heartbeatDueMs":5000,"ip":"172.16.30.103:8848","leaderDueMs":16427,"state":"FOLLOWER","term":0,"voteFor":""}, term: 0
+

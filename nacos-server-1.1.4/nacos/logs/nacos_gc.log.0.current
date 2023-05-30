@@ -1,0 +1,14 @@
+Java HotSpot(TM) 64-Bit Server VM (25.311-b11) for windows-amd64 JRE (1.8.0_311-b11), built on Sep 27 2021 05:15:14 by "java_re" with MS VC++ 15.9 (VS2017)
+Memory: 4k page, physical 33314352k(18807092k free), swap 38295088k(14685496k free)
+CommandLine flags: -XX:CompressedClassSpaceSize=327155712 -XX:GCLogFileSize=104857600 -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=D:/soft/nacos-server-1.1.4/nacos/logs/java_heapdump.hprof -XX:InitialHeapSize=2147483648 -XX:MaxHeapSize=2147483648 -XX:MaxMetaspaceSize=335544320 -XX:MaxNewSize=1073741824 -XX:MetaspaceSize=134217728 -XX:NewSize=1073741824 -XX:NumberOfGCLogFiles=10 -XX:-OmitStackTraceInFastThrow -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:+UseGCLogFileRotation -XX:-UseLargePages -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+2022-09-01T10:13:14.831+0800: 1.531: [GC (Allocation Failure) [PSYoungGen: 786432K->12056K(917504K)] 786432K->12160K(1966080K), 0.0069388 secs] [Times: user=0.00 sys=0.00, real=0.01 secs] 
+2022-09-01T10:13:15.865+0800: 2.566: [GC (Allocation Failure) [PSYoungGen: 798488K->22264K(917504K)] 798592K->22392K(1966080K), 0.0087016 secs] [Times: user=0.02 sys=0.00, real=0.01 secs] 
+Heap
+ PSYoungGen      total 917504K, used 567527K [0x00000000c0000000, 0x0000000100000000, 0x0000000100000000)
+  eden space 786432K, 69% used [0x00000000c0000000,0x00000000e147ba68,0x00000000f0000000)
+  from space 131072K, 16% used [0x00000000f8000000,0x00000000f95be2c0,0x0000000100000000)
+  to   space 131072K, 0% used [0x00000000f0000000,0x00000000f0000000,0x00000000f8000000)
+ ParOldGen       total 1048576K, used 128K [0x0000000080000000, 0x00000000c0000000, 0x00000000c0000000)
+  object space 1048576K, 0% used [0x0000000080000000,0x0000000080020010,0x00000000c0000000)
+ Metaspace       used 47447K, capacity 49266K, committed 49536K, reserved 1093632K
+  class space    used 5855K, capacity 6194K, committed 6272K, reserved 1048576K

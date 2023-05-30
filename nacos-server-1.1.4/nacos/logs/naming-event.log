@@ -1,0 +1,24 @@
+2023-03-07 19:31:55,937 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.30.103:8222:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-07 19:31:55,939 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.16.30.103:8222_true,
+
+2023-03-07 19:31:57,575 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.16.30.103:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-03-07 19:31:57,575 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.16.30.103:8001_true,
+
+2023-03-07 19:32:03,760 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 172.16.30.103:8001_true,
+
+2023-03-07 19:32:07,689 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 172.16.30.103:8222_true,
+
+2023-03-07 20:52:58,720 INFO {POS} {IP-DISABLED} valid: 172.16.30.103:8222@DEFAULT@DEFAULT_GROUP@@service-gateway, region: unknown, msg: client timeout after 15000, last beat: 1678193559781
+
+2023-03-07 20:53:00,156 INFO {POS} {IP-DISABLED} valid: 172.16.30.103:8001@DEFAULT@DEFAULT_GROUP@@service-edu, region: unknown, msg: client timeout after 15000, last beat: 1678193560941
+
+2023-03-07 20:53:13,850 INFO DEFAULT_GROUP@@service-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.16.30.103:8222:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-03-07 20:53:13,850 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-gateway, ips: 
+
+2023-03-07 20:53:15,167 INFO DEFAULT_GROUP@@service-edu {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.16.30.103:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-03-07 20:53:15,167 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@service-edu, ips: 
+

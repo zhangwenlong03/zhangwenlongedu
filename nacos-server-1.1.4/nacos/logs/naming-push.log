@@ -1,0 +1,52 @@
+2023-03-07 19:31:56,942 INFO DEFAULT_GROUP@@service-gateway is changed, add it to push queue.
+
+2023-03-07 19:31:58,585 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
+
+2023-03-07 19:31:58,586 INFO serviceName: DEFAULT_GROUP@@service-edu changed, schedule push for: 172.27.160.1:55291, agent: Nacos-Java-Client:v1.0.0, key: 172.27.160.1,55291,1226365577338000
+
+2023-03-07 19:31:58,586 INFO send udp packet: 172.27.160.1,55291,1226365577338000
+
+2023-03-07 19:31:58,590 INFO received ack: {"type": "push-ack", "lastRefTime":"1226365577338000", "data":""} from: 172.27.160.1:, cost: 55291 ms, unacked: 4, total push: 0
+
+2023-03-07 19:32:04,771 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
+
+2023-03-07 19:32:04,771 INFO serviceName: DEFAULT_GROUP@@service-edu changed, schedule push for: 172.27.160.1:50615, agent: Nacos-Java-Client:v1.0.0, key: 172.27.160.1,50615,1226371762868500
+
+2023-03-07 19:32:04,771 INFO send udp packet: 172.27.160.1,50615,1226371762868500
+
+2023-03-07 19:32:04,771 INFO serviceName: DEFAULT_GROUP@@service-edu changed, schedule push for: 172.27.160.1:55291, agent: Nacos-Java-Client:v1.0.0, key: 172.27.160.1,55291,1226371762868500
+
+2023-03-07 19:32:04,772 INFO send udp packet: 172.27.160.1,55291,1226371762868500
+
+2023-03-07 19:32:04,773 INFO received ack: {"type": "push-ack", "lastRefTime":"1226371762868500", "data":""} from: 172.27.160.1:, cost: 50615 ms, unacked: 2, total push: 1
+
+2023-03-07 19:32:08,692 INFO DEFAULT_GROUP@@service-gateway is changed, add it to push queue.
+
+2023-03-07 19:32:08,692 INFO serviceName: DEFAULT_GROUP@@service-gateway changed, schedule push for: 172.27.160.1:50615, agent: Nacos-Java-Client:v1.0.0, key: 172.27.160.1,50615,1226375683754200
+
+2023-03-07 19:32:08,692 INFO send udp packet: 172.27.160.1,50615,1226375683754200
+
+2023-03-07 19:32:08,692 INFO serviceName: DEFAULT_GROUP@@service-gateway changed, schedule push for: 172.27.160.1:56614, agent: Nacos-Java-Client:v1.0.0, key: 172.27.160.1,56614,1226375683754200
+
+2023-03-07 19:32:08,692 INFO send udp packet: 172.27.160.1,56614,1226375683754200
+
+2023-03-07 19:32:08,693 INFO received ack: {"type": "push-ack", "lastRefTime":"1226375683754200", "data":""} from: 172.27.160.1:, cost: 50615 ms, unacked: 1, total push: 2
+
+2023-03-07 19:32:08,695 INFO received ack: {"type": "push-ack", "lastRefTime":"1226375683754200", "data":""} from: 172.27.160.1:, cost: 56614 ms, unacked: 3, total push: 1
+
+2023-03-07 19:32:14,776 INFO retry to push data, key: 172.27.160.1,55291,1226371762868500
+
+2023-03-07 19:32:14,776 INFO send udp packet: 172.27.160.1,55291,1226371762868500
+
+2023-03-07 19:32:24,777 INFO retry to push data, key: 172.27.160.1,55291,1226371762868500
+
+2023-03-07 19:32:24,777 WARN max re-push times reached, retry times 2, key: 172.27.160.1,55291,1226371762868500
+
+2023-03-07 20:52:59,727 INFO DEFAULT_GROUP@@service-gateway is changed, add it to push queue.
+
+2023-03-07 20:53:01,167 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
+
+2023-03-07 20:53:14,863 INFO DEFAULT_GROUP@@service-gateway is changed, add it to push queue.
+
+2023-03-07 20:53:16,169 INFO DEFAULT_GROUP@@service-edu is changed, add it to push queue.
+
